@@ -43,3 +43,6 @@ colors:
     white: '#FCFCFA'
     
 theme: Monokai-Pro
+
+shell:
+  program: zsh
