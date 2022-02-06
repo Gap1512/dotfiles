@@ -59,7 +59,12 @@ cpu(){
 
 # Statusbar loop
 while true; do
-    xsetroot -name "$(cpu) | $(mem) | $(upd) | $(dte)"
+    RED="^c#FF6188^"
+    GREEN="^c#A9DC76^"
+    MAGENTA="^c#AB9DF2^"
+    CYAN="^c#78DCE8^"
+    WHITE="^c#FCFCFA^"
+    xsetroot -name "${RED}$(cpu) ${WHITE}| ${GREEN}$(mem) ${WHITE}| ${MAGENTA}$(upd) ${WHITE}| ${CYAN}$(dte)"
     sleep 10s
 done &
 
