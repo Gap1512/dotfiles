@@ -1,1 +1,45 @@
-/home/gap1512/.config/alacritty/alacritty.yml
+window:
+  padding:
+    x: 10
+    y: 10
+    
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font Mono"
+    
+  size: 10
+  
+  offset:
+    x: 0
+    
+  use_thin_strokes: true
+  
+colors:
+  # Default colors
+  primary:
+    background: '#2D2A2E'
+    foreground: '#FCFCFA'
+
+  # Normal colors
+  normal:
+    black: '#403E41'
+    red: '#FF6188'
+    green: '#A9DC76'
+    yellow: '#FFD866'
+    blue: '#FC9867'
+    magenta: '#AB9DF2'
+    cyan: '#78DCE8'
+    white: '#FCFCFA'
+
+  # Bright colors
+  bright:
+    black: '#727072'
+    red: '#FF6188'
+    green: '#A9DC76'
+    yellow: '#FFD866'
+    blue: '#FC9867'
+    magenta: '#AB9DF2'
+    cyan: '#78DCE8'
+    white: '#FCFCFA'
+    
+theme: Monokai-Pro
