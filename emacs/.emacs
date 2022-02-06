@@ -1,0 +1,1 @@
+/home/gap1512/.emacs
